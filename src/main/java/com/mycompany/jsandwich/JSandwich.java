@@ -14,12 +14,11 @@ import java.awt.event.*;
 public class JSandwich {
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("sandwich spaza shop");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(732, 716);
+
+        jFrame frame = new jFrame();
+        frame.setVisible(true);
         
         
         
-        System.out.println("Hello World!");
     }
 }
